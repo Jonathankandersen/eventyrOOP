@@ -5,16 +5,23 @@ public class Eventyr
 	public static void main(String[] arg)
 	{
                 java.util.Scanner tastatur = new java.util.Scanner(System.in);
-                //String s1;
-                System.out.println("Indtast personers navne: ");
-                String person1 = tastatur.toString();
+                System.out.println("indtast antal personer i historier:");
+                
+                
+                System.out.println("Indtast persons navn: ");
                 String s1 = tastatur.next();
+                System.out.println("Indtast persons navn: ");
+                String s2 = tastatur.next();
+                System.out.println("Indtast persons navn: ");
+                String s3 = tastatur.next();
                 
                 
 		ArrayList<String> personer = new ArrayList<String>(); // liste af strenge
-		personer.add(" "+ s1);
-		personer.add("Henning");
-		personer.add("Troels");
+		personer.add(""+ s1);                                // Uses string to store name given by user.
+		personer.add(""+ s2);
+		personer.add(""+ s3);
+                
+                System.out.println("Navne du har indtastet: "+personer.toString());
 
 		ArrayList<String> handlinger = new ArrayList<String>();
 		handlinger.add("slikker sig om munden");
