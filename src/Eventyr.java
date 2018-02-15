@@ -30,6 +30,12 @@ public class Eventyr
                 handlinger.add("har det skidt");
                 handlinger.add("får det for vildt!");
                 handlinger.add("er ensom");
+                handlinger.add("er meget træt");
+                handlinger.add("vil ikke mere");
+                handlinger.add("siger goddag til dig");
+                handlinger.add("viser sine malerier af graveballemanden frem");
+                handlinger.add("har mistet sin sans for humor");
+                handlinger.add("tror på Spaggetti Monster");
 
 		for (int i=0; i<5; i++) {
 			int antalPersoner = personer.size(); // antal personer i listen, dvs 3
